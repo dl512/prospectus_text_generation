@@ -25,9 +25,9 @@ Since the second problem is relatively rare, I will simply ignore it. As for the
 
 N-Gram Counts
 
-Counting N-Grams is straight-forward. One thing to note is that in order to generate the first and the last words, a dummy word <s> or <e> is added to the beginning and the end of the sentence, respectively. Additionally, some low-frequency words will be converted into an <unk> token to account for unexpected words. You can check out any tutorial for more detailed explanation.
+Counting N-Grams is straight-forward. One thing to note is that in order to generate the first and the last words, a dummy word "s" or "e" is added to the beginning and the end of the sentence, respectively. Additionally, some low-frequency words will be converted into an <unk> token to account for unexpected words. You can check out any tutorial for more detailed explanation.
 
-So, here are the 5 most frequent N words (excluding <s>, <e>, symbols, and the low-frequency words):
+So, here are the 5 most frequent N words (excluding "s", "e", symbols, and the low-frequency words):
 
 N=1: “the”, “of”, “and”, “to”, “in”
 N=2: “of the”, “of our”, “for the”, “in the”, “to the”
